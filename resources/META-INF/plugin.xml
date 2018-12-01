@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>com.jeromepogeant.timetracker</id>
+  <name>Time Tracker</name>
+  <version>1.0</version>
+  <vendor email="p-jerome@hotmail.fr" url="https://jeromepogeant.com">Jérôme Pogeant</vendor>
+  <description><![CDATA[
+      This plugin allow to automate time tracking of Git branches and interact with Gitlab merge requests through Gitlab API.
+    ]]>
+  </description>
+  <change-notes><![CDATA[
+      Automatically detect if project use Git or not.<br>
+      Implement time tracking of Git branches.<br>
+    ]]>
+  </change-notes>
+  <idea-version since-build="173.0"/>
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+  <actions>
+  </actions>
+</idea-plugin>
